@@ -19,5 +19,4 @@ struct CurrencyViewModel{
     func numberOfRowsInSection() -> Int {
         return self.currency.rates.capacity-1
     }
-    
 }

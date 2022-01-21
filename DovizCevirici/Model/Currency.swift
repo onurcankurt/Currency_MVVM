@@ -14,5 +14,3 @@ struct Currency : Decodable{
     let date: String
     let rates : Dictionary<String, Double>
 }
-
-
