@@ -17,14 +17,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var tryLabel: UILabel!
     
     
-    
-    
-    
     private var currencyViewModel : CurrencyViewModel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        getData()
     }
     
     func getData(){
