@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE3AAB59279B18FA00441281 /* CurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3AAB58279B18FA00441281 /* CurrencyViewModel.swift */; };
 		BEC31DB8279AFBAD009D17F5 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC31DB7279AFBAD009D17F5 /* Currency.swift */; };
 		BEC31DBA279AFC90009D17F5 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC31DB9279AFC90009D17F5 /* WebService.swift */; };
 		BEFC4B7227940E3800CE7D15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFC4B7127940E3800CE7D15 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE3AAB58279B18FA00441281 /* CurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewModel.swift; sourceTree = "<group>"; };
 		BEC31DB7279AFBAD009D17F5 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		BEC31DB9279AFC90009D17F5 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		BEFC4B6E27940E3800CE7D15 /* DovizCevirici.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DovizCevirici.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +54,7 @@
 		BEC31DB4279AFA48009D17F5 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				BE3AAB58279B18FA00441281 /* CurrencyViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEC31DB8279AFBAD009D17F5 /* Currency.swift in Sources */,
+				BE3AAB59279B18FA00441281 /* CurrencyViewModel.swift in Sources */,
 				BEFC4B7627940E3800CE7D15 /* ViewController.swift in Sources */,
 				BEFC4B7227940E3800CE7D15 /* AppDelegate.swift in Sources */,
 				BEC31DBA279AFC90009D17F5 /* WebService.swift in Sources */,

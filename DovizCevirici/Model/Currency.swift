@@ -8,7 +8,9 @@
 import Foundation
 
 struct Currency : Decodable{
+    let success : Bool
+    let timestamp : Int64
+    let base : String
+    let date: String
     let rates : Dictionary<String, Double>
-//    let name : String
-//    let price : Int
 }

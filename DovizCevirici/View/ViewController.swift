@@ -29,7 +29,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         let url = URL(string: "http://data.fixer.io/api/latest?access_key=602ad5381aca2c1865a382904ba933c1")!
-        
+        WebService().downloadCurrencies(url: url) { currencies in
+            if let currencies = currencies {
+                
+            }
+        }
     }
     
     
