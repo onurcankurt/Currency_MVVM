@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEC31DB8279AFBAD009D17F5 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC31DB7279AFBAD009D17F5 /* Currency.swift */; };
+		BEC31DBA279AFC90009D17F5 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC31DB9279AFC90009D17F5 /* WebService.swift */; };
 		BEFC4B7227940E3800CE7D15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFC4B7127940E3800CE7D15 /* AppDelegate.swift */; };
 		BEFC4B7427940E3800CE7D15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFC4B7327940E3800CE7D15 /* SceneDelegate.swift */; };
 		BEFC4B7627940E3800CE7D15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFC4B7527940E3800CE7D15 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BEC31DB7279AFBAD009D17F5 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		BEC31DB9279AFC90009D17F5 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		BEFC4B6E27940E3800CE7D15 /* DovizCevirici.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DovizCevirici.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFC4B7127940E3800CE7D15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEFC4B7327940E3800CE7D15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,8 +44,34 @@
 		BEC31DB3279AF9F9009D17F5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BEC31DB7279AFBAD009D17F5 /* Currency.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		BEC31DB4279AFA48009D17F5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BEC31DB5279AFA57009D17F5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BEC31DB9279AFC90009D17F5 /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BEC31DB6279AFA8D009D17F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEFC4B7127940E3800CE7D15 /* AppDelegate.swift */,
+				BEFC4B7327940E3800CE7D15 /* SceneDelegate.swift */,
+				BEFC4B7527940E3800CE7D15 /* ViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		BEFC4B6527940E3800CE7D15 = {
@@ -63,10 +93,10 @@
 		BEFC4B7027940E3800CE7D15 /* DovizCevirici */ = {
 			isa = PBXGroup;
 			children = (
+				BEC31DB5279AFA57009D17F5 /* Service */,
+				BEC31DB4279AFA48009D17F5 /* ViewModel */,
 				BEC31DB3279AF9F9009D17F5 /* Model */,
-				BEFC4B7127940E3800CE7D15 /* AppDelegate.swift */,
-				BEFC4B7327940E3800CE7D15 /* SceneDelegate.swift */,
-				BEFC4B7527940E3800CE7D15 /* ViewController.swift */,
+				BEC31DB6279AFA8D009D17F5 /* View */,
 				BEFC4B7727940E3800CE7D15 /* Main.storyboard */,
 				BEFC4B7A27940E3900CE7D15 /* Assets.xcassets */,
 				BEFC4B7C27940E3900CE7D15 /* LaunchScreen.storyboard */,
@@ -146,8 +176,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC31DB8279AFBAD009D17F5 /* Currency.swift in Sources */,
 				BEFC4B7627940E3800CE7D15 /* ViewController.swift in Sources */,
 				BEFC4B7227940E3800CE7D15 /* AppDelegate.swift in Sources */,
+				BEC31DBA279AFC90009D17F5 /* WebService.swift in Sources */,
 				BEFC4B7427940E3800CE7D15 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
