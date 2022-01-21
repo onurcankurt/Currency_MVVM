@@ -18,7 +18,7 @@ class WebService{
                 
                 let currencyList = try? JSONDecoder().decode(Currency.self, from: data)
                 
-                print(currencyList)
+                //print(currencyList)
                 
                 if let currencyList = currencyList {
                     completion(currencyList)

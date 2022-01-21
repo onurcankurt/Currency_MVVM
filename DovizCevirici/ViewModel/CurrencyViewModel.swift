@@ -7,6 +7,17 @@
 
 import Foundation
 
-struct CurrencyListViewModel{
+
+struct CurrencyViewModel{
+    let currency : Currency
+//    let currencyName : String
+//    let currencyValue : Double
+//    let currencyNames : [String]
+//    let currencyValues : [Double]
+    
+    
+    func numberOfRowsInSection() -> Int {
+        return self.currency.rates.capacity-1
+    }
     
 }
